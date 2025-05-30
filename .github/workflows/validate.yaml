@@ -12,3 +12,5 @@ name: validate
 jobs:
   version:
     uses: gehlotanish/github-workflows/.github/workflows/pre-commit.yaml@main
+    secrets:
+      TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
