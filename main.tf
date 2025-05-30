@@ -5,9 +5,9 @@ module "log_analytics_workspace" {
   workspace_name      = "laws"
   resource_group_name = "testrg"
   workspace_retention = 30
-  sku                 = PerGB2018
+  sku                 = "PerGB2018"
   tags                = {
-    evn = dev
+    evn = "dev"
   }
 
 }
