@@ -7,6 +7,6 @@ module "log_analytics_workspace" {
   workspace_retention = 30
   sku                 = "PerGB2018"
   tags = {
-    evn = "dev"
+    env = "dev"
   }
 }
