@@ -9,5 +9,4 @@ module "log_analytics_workspace" {
   tags = {
     evn = "dev"
   }
-
 }
