@@ -6,7 +6,7 @@ module "log_analytics_workspace" {
   resource_group_name = "testrg"
   workspace_retention = 30
   sku                 = "PerGB2018"
-  tags                = {
+  tags = {
     evn = "dev"
   }
 
