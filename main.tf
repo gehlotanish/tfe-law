@@ -8,5 +8,6 @@ module "log_analytics_workspace" {
   sku                 = "PerGB2018"
   tags = {
     env = "dev"
+    test = "1"
   }
 }
